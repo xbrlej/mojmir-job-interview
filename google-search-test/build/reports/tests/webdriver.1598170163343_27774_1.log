@@ -1,0 +1,322 @@
+[1598170163,477][INFO]: Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 14216
+[1598170163,477][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1598170163,759][INFO]: [db4e3dc2c1d5b6b5bec81c1b20dc713b] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "/home/simon/IdeaProjects/MojmirGoogle/google-search-test/build/downloads/1598170162876_27774_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "/home/simon/IdeaProjects/MojmirGoogle/google-search-test/build/downloads/1598170162876_27774_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1598170163,759][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "/home/simon/IdeaProjects/MojmirGoogle/google-search-test/build/downloads/1598170162876_27774_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1598170163,759][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1598170163,759][INFO]: Launching chrome: /usr/bin/google-chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/tmp/.com.google.Chrome.ZBgZCA data:,
+[1598170164,020][INFO]: resolved localhost to ["127.0.0.1"]
+[1598170164,024][INFO]: resolved localhost to ["127.0.0.1"]
+[1598170164,080][INFO]: [db4e3dc2c1d5b6b5bec81c1b20dc713b] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "84.0.4147.135",
+      "chrome": {
+         "chromedriverVersion": "84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310})",
+         "userDataDir": "/tmp/.com.google.Chrome.ZBgZCA"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:39049"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "linux",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "db4e3dc2c1d5b6b5bec81c1b20dc713b"
+}
+[1598170164,156][INFO]: [db4e3dc2c1d5b6b5bec81c1b20dc713b] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1598170164,156][INFO]: Waiting for pending navigations...
+[1598170164,157][INFO]: Done waiting for pending navigations. Status: ok
+[1598170164,259][INFO]: Waiting for pending navigations...
+[1598170164,260][INFO]: Done waiting for pending navigations. Status: ok
+[1598170164,260][INFO]: [db4e3dc2c1d5b6b5bec81c1b20dc713b] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 67,
+   "y": 37
+}
+[1598170164,269][INFO]: [db4e3dc2c1d5b6b5bec81c1b20dc713b] COMMAND Navigate {
+   "url": "http://google.com"
+}
+[1598170164,269][INFO]: Waiting for pending navigations...
+[1598170164,270][INFO]: Done waiting for pending navigations. Status: ok
+[1598170165,276][INFO]: Waiting for pending navigations...
+[1598170166,198][INFO]: Done waiting for pending navigations. Status: ok
+[1598170166,198][INFO]: [db4e3dc2c1d5b6b5bec81c1b20dc713b] RESPONSE Navigate
+[1598170166,250][INFO]: [db4e3dc2c1d5b6b5bec81c1b20dc713b] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='q']"
+}
+[1598170166,250][INFO]: resolved localhost to ["127.0.0.1"]
+[1598170166,255][INFO]: [db4e3dc2c1d5b6b5bec81c1b20dc713b] RESPONSE FindElement ERROR chrome not reachable
+  (Session info: chrome=84.0.4147.135)
+[1598170166,473][INFO]: [db4e3dc2c1d5b6b5bec81c1b20dc713b] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='q']"
+}
+[1598170166,473][INFO]: resolved localhost to ["127.0.0.1"]
+[1598170166,474][INFO]: [db4e3dc2c1d5b6b5bec81c1b20dc713b] RESPONSE FindElement ERROR chrome not reachable
+  (Session info: chrome=84.0.4147.135)
+[1598170166,680][INFO]: [db4e3dc2c1d5b6b5bec81c1b20dc713b] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='q']"
+}
+[1598170166,681][INFO]: resolved localhost to ["127.0.0.1"]
+[1598170166,682][INFO]: [db4e3dc2c1d5b6b5bec81c1b20dc713b] RESPONSE FindElement ERROR chrome not reachable
+  (Session info: chrome=84.0.4147.135)
+[1598170166,890][INFO]: [db4e3dc2c1d5b6b5bec81c1b20dc713b] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='q']"
+}
+[1598170166,890][INFO]: resolved localhost to ["127.0.0.1"]
+[1598170166,891][INFO]: [db4e3dc2c1d5b6b5bec81c1b20dc713b] RESPONSE FindElement ERROR chrome not reachable
+  (Session info: chrome=84.0.4147.135)
+[1598170167,096][INFO]: [db4e3dc2c1d5b6b5bec81c1b20dc713b] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='q']"
+}
+[1598170167,096][INFO]: resolved localhost to ["127.0.0.1"]
+[1598170167,097][INFO]: [db4e3dc2c1d5b6b5bec81c1b20dc713b] RESPONSE FindElement ERROR chrome not reachable
+  (Session info: chrome=84.0.4147.135)
+[1598170167,303][INFO]: [db4e3dc2c1d5b6b5bec81c1b20dc713b] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='q']"
+}
+[1598170167,303][INFO]: resolved localhost to ["127.0.0.1"]
+[1598170167,304][INFO]: [db4e3dc2c1d5b6b5bec81c1b20dc713b] RESPONSE FindElement ERROR chrome not reachable
+  (Session info: chrome=84.0.4147.135)
+[1598170167,511][INFO]: [db4e3dc2c1d5b6b5bec81c1b20dc713b] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='q']"
+}
+[1598170167,511][INFO]: resolved localhost to ["127.0.0.1"]
+[1598170167,512][INFO]: [db4e3dc2c1d5b6b5bec81c1b20dc713b] RESPONSE FindElement ERROR chrome not reachable
+  (Session info: chrome=84.0.4147.135)
+[1598170167,719][INFO]: [db4e3dc2c1d5b6b5bec81c1b20dc713b] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='q']"
+}
+[1598170167,719][INFO]: resolved localhost to ["127.0.0.1"]
+[1598170167,720][INFO]: [db4e3dc2c1d5b6b5bec81c1b20dc713b] RESPONSE FindElement ERROR chrome not reachable
+  (Session info: chrome=84.0.4147.135)
+[1598170167,927][INFO]: [db4e3dc2c1d5b6b5bec81c1b20dc713b] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='q']"
+}
+[1598170167,927][INFO]: resolved localhost to ["127.0.0.1"]
+[1598170167,928][INFO]: [db4e3dc2c1d5b6b5bec81c1b20dc713b] RESPONSE FindElement ERROR chrome not reachable
+  (Session info: chrome=84.0.4147.135)
+[1598170168,134][INFO]: [db4e3dc2c1d5b6b5bec81c1b20dc713b] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='q']"
+}
+[1598170168,135][INFO]: resolved localhost to ["127.0.0.1"]
+[1598170168,136][INFO]: [db4e3dc2c1d5b6b5bec81c1b20dc713b] RESPONSE FindElement ERROR chrome not reachable
+  (Session info: chrome=84.0.4147.135)
+[1598170168,342][INFO]: [db4e3dc2c1d5b6b5bec81c1b20dc713b] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='q']"
+}
+[1598170168,342][INFO]: resolved localhost to ["127.0.0.1"]
+[1598170168,344][INFO]: [db4e3dc2c1d5b6b5bec81c1b20dc713b] RESPONSE FindElement ERROR chrome not reachable
+  (Session info: chrome=84.0.4147.135)
+[1598170168,550][INFO]: [db4e3dc2c1d5b6b5bec81c1b20dc713b] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='q']"
+}
+[1598170168,550][INFO]: resolved localhost to ["127.0.0.1"]
+[1598170168,552][INFO]: [db4e3dc2c1d5b6b5bec81c1b20dc713b] RESPONSE FindElement ERROR chrome not reachable
+  (Session info: chrome=84.0.4147.135)
+[1598170168,758][INFO]: [db4e3dc2c1d5b6b5bec81c1b20dc713b] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='q']"
+}
+[1598170168,758][INFO]: resolved localhost to ["127.0.0.1"]
+[1598170168,759][INFO]: [db4e3dc2c1d5b6b5bec81c1b20dc713b] RESPONSE FindElement ERROR chrome not reachable
+  (Session info: chrome=84.0.4147.135)
+[1598170168,966][INFO]: [db4e3dc2c1d5b6b5bec81c1b20dc713b] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='q']"
+}
+[1598170168,966][INFO]: resolved localhost to ["127.0.0.1"]
+[1598170168,967][INFO]: [db4e3dc2c1d5b6b5bec81c1b20dc713b] RESPONSE FindElement ERROR chrome not reachable
+  (Session info: chrome=84.0.4147.135)
+[1598170169,174][INFO]: [db4e3dc2c1d5b6b5bec81c1b20dc713b] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='q']"
+}
+[1598170169,174][INFO]: resolved localhost to ["127.0.0.1"]
+[1598170169,175][INFO]: [db4e3dc2c1d5b6b5bec81c1b20dc713b] RESPONSE FindElement ERROR chrome not reachable
+  (Session info: chrome=84.0.4147.135)
+[1598170169,382][INFO]: [db4e3dc2c1d5b6b5bec81c1b20dc713b] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='q']"
+}
+[1598170169,382][INFO]: resolved localhost to ["127.0.0.1"]
+[1598170169,383][INFO]: [db4e3dc2c1d5b6b5bec81c1b20dc713b] RESPONSE FindElement ERROR chrome not reachable
+  (Session info: chrome=84.0.4147.135)
+[1598170169,590][INFO]: [db4e3dc2c1d5b6b5bec81c1b20dc713b] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='q']"
+}
+[1598170169,590][INFO]: resolved localhost to ["127.0.0.1"]
+[1598170169,591][INFO]: [db4e3dc2c1d5b6b5bec81c1b20dc713b] RESPONSE FindElement ERROR chrome not reachable
+  (Session info: chrome=84.0.4147.135)
+[1598170169,797][INFO]: [db4e3dc2c1d5b6b5bec81c1b20dc713b] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='q']"
+}
+[1598170169,797][INFO]: resolved localhost to ["127.0.0.1"]
+[1598170169,798][INFO]: [db4e3dc2c1d5b6b5bec81c1b20dc713b] RESPONSE FindElement ERROR chrome not reachable
+  (Session info: chrome=84.0.4147.135)
+[1598170170,005][INFO]: [db4e3dc2c1d5b6b5bec81c1b20dc713b] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='q']"
+}
+[1598170170,005][INFO]: resolved localhost to ["127.0.0.1"]
+[1598170170,006][INFO]: [db4e3dc2c1d5b6b5bec81c1b20dc713b] RESPONSE FindElement ERROR chrome not reachable
+  (Session info: chrome=84.0.4147.135)
+[1598170170,212][INFO]: [db4e3dc2c1d5b6b5bec81c1b20dc713b] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='q']"
+}
+[1598170170,212][INFO]: resolved localhost to ["127.0.0.1"]
+[1598170170,214][INFO]: [db4e3dc2c1d5b6b5bec81c1b20dc713b] RESPONSE FindElement ERROR chrome not reachable
+  (Session info: chrome=84.0.4147.135)
+[1598170170,422][INFO]: [db4e3dc2c1d5b6b5bec81c1b20dc713b] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1598170170,422][INFO]: resolved localhost to ["127.0.0.1"]
+[1598170170,423][INFO]: [db4e3dc2c1d5b6b5bec81c1b20dc713b] RESPONSE ExecuteScript ERROR chrome not reachable
+  (Session info: chrome=84.0.4147.135)
+[1598170170,426][INFO]: [db4e3dc2c1d5b6b5bec81c1b20dc713b] COMMAND Screenshot {
+
+}
+[1598170170,426][INFO]: resolved localhost to ["127.0.0.1"]
+[1598170170,427][INFO]: [db4e3dc2c1d5b6b5bec81c1b20dc713b] RESPONSE Screenshot ERROR chrome not reachable
+  (Session info: chrome=84.0.4147.135)
+[1598170170,446][INFO]: [db4e3dc2c1d5b6b5bec81c1b20dc713b] COMMAND Quit {
+
+}
+[1598170170,446][INFO]: [db4e3dc2c1d5b6b5bec81c1b20dc713b] RESPONSE Quit
